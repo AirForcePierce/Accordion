@@ -26,21 +26,19 @@
 
 .open {
   overflow-y: hidden;
-  max-height: 500px;
-  transition: all 1s ease;
+  height: 100px;
+  transition: height 2s ease;
 }
 
 .closed {
-  display: none;
+  // display: none;
+  height: 0px;
 }
-
-
-
 
 .box-content {
-  width: 300px;
-  padding: 10px;
+  margin: 0;
 }
+
 
 
 
