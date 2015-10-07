@@ -1,10 +1,14 @@
 $(document).ready(function () {
 
+  //Function to close box when called
+
   function closeIt () {
     $('.box .box-title').removeClass('active');
     $('.box .box-content').removeClass('open').addClass('closed');
 
   }
+
+  //Function that looks for specific href to open that element
 
   $('.box-title').on('click', function (thing) {
 
