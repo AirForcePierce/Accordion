@@ -1,7 +1,9 @@
-.box, .box * {
-    -webkit-box-sizing: border-box; 
-    -moz-box-sizing: border-box; 
+.box, .box * { 
     box-sizing: border-box;
+}
+
+p {
+  margin: 0;
 }
 
 .box {
@@ -26,42 +28,17 @@
 
 .open {
   overflow-y: hidden;
-  height: 100px;
-  transition: height 2s ease;
+  max-height: 200px;
+  transition: max-height 2s ease;
 }
 
 .closed {
   // display: none;
-  height: 0px;
+  max-height: 0px;
 }
 
 .box-content {
   margin: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// .slider {
-//   overflow-y: hidden;
-//   max-height: 500px;
-//   transition: all ease 1s;
-
-// }
-
-// .closed {
-//   max-height: 0;
-// }
-
 
 

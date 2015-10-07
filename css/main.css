@@ -1,7 +1,8 @@
 .box, .box * {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box; }
+
+p {
+  margin: 0; }
 
 .box {
   overflow: hidden;
@@ -22,11 +23,11 @@
 
 .open {
   overflow-y: hidden;
-  height: 100px;
-  transition: height 2s ease; }
+  max-height: 200px;
+  transition: max-height 2s ease; }
 
 .closed {
-  height: 0px; }
+  max-height: 0px; }
 
 .box-content {
   margin: 0; }
