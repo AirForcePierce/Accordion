@@ -1,5 +1,6 @@
 .box, .box * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  width: 300px; }
 
 p {
   margin: 0; }
@@ -27,7 +28,8 @@ p {
   transition: max-height 2s ease; }
 
 .closed {
-  max-height: 0px; }
+  max-height: 0px;
+  transition: max-height 2s ease; }
 
 .box-content {
   margin: 0; }

@@ -1,5 +1,6 @@
 .box, .box * { 
     box-sizing: border-box;
+    width: 300px;
 }
 
 p {
@@ -35,6 +36,7 @@ p {
 .closed {
   // display: none;
   max-height: 0px;
+  transition: max-height 2s ease;
 }
 
 .box-content {
