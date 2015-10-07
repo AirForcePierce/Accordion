@@ -1,0 +1,69 @@
+.box, .box * {
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box;
+}
+
+.box {
+    overflow: hidden;
+    border-radius: 3px;
+    background-color: gray;
+    transition: 1s ease;
+}
+
+.box-title {
+  width: 100%;
+  padding: 10px;
+  display: inline-block;
+  background-color: green;
+  color: white;
+}
+
+.box-title.active, .box-title:hover {
+  background-color: pink;
+  text-decoration: none;
+}
+
+.open {
+  overflow-y: hidden;
+  max-height: 500px;
+  transition: all 1s ease;
+}
+
+.closed {
+  display: none;
+}
+
+
+
+
+.box-content {
+  width: 300px;
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .slider {
+//   overflow-y: hidden;
+//   max-height: 500px;
+//   transition: all ease 1s;
+
+// }
+
+// .closed {
+//   max-height: 0;
+// }
+
+
+
