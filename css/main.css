@@ -9,7 +9,7 @@ p {
   overflow: hidden;
   border-radius: 3px;
   background-color: gray;
-  transition: 1s ease; }
+  transition: all 1s ease; }
 
 .box-title {
   width: 100%;
@@ -19,7 +19,7 @@ p {
   color: white; }
 
 .box-title.active, .box-title:hover {
-  background-color: pink;
+  background-color: #98FB98;
   text-decoration: none; }
 
 .open {
